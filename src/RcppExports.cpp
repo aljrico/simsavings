@@ -160,8 +160,6 @@ BEGIN_RCPP
 END_RCPP
 }
 
-RcppExport SEXP _package_rcpp_hello_world();
-
 static const R_CallMethodDef CallEntries[] = {
     {"_simSavings_normal", (DL_FUNC) &_simSavings_normal, 2},
     {"_simSavings_cppi_c", (DL_FUNC) &_simSavings_cppi_c, 6},
@@ -174,7 +172,6 @@ static const R_CallMethodDef CallEntries[] = {
     {"_simSavings_equiv_pi_c", (DL_FUNC) &_simSavings_equiv_pi_c, 8},
     {"_simSavings_return_c", (DL_FUNC) &_simSavings_return_c, 3},
     {"_simSavings_rcpp_hello_world", (DL_FUNC) &_simSavings_rcpp_hello_world, 0},
-    {"_package_rcpp_hello_world", (DL_FUNC) &_package_rcpp_hello_world, 0},
     {NULL, NULL, 0}
 };
 
