@@ -1,0 +1,16 @@
+Package: simSavings
+Type: Package
+Title: Functions used to simulate savings schemes
+Version: 1.0
+Date: 2018-09-07
+Author: Alejandro Jimenez Rico
+Maintainer: Alejandro Jimenez Rico <aljrico@gmail.com>
+Description: Contains many necessary functions in order to simulate different savings schemes. It also contains some real mortality tables, used in some savings strategies.
+License: GPL (>= 2)
+URL: https://github.com/aljrico/simsavings
+BugReports: https://github.com/aljrico/simsavings/issues
+Imports: 
+	Rcpp (>= 0.12.17)
+	tidyverse,
+	data.table
+LinkingTo: Rcpp
